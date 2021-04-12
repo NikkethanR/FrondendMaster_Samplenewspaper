@@ -1,0 +1,83 @@
+.main-title{
+    font: size 60px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+.story-title{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+    
+}
+.story-text{
+    line-height: 1.5;
+    font-size: 16px;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+}
+.story{
+    border: 1px solid #333;
+    padding: 5px;
+
+}
+.quater{
+    width: 25%;
+    /*or 
+    flex:1;*/
+}
+.half{
+    width: 50%;
+    /*or 
+    flex:2;*/
+}
+.story-image{
+    width: 100%;
+}
+.three-quater{
+    width:75%;
+    /*or 
+    flex:3;*/
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    margin-right: 25px;
+    border-color: black;
+    border-width: 10px;
+
+}
+.nav-item{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    color:#555;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.nav-item a{
+    text-decoration:none ;
+    color:#555;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+}
+.nav-item:nth-child(1){background-color: rgb(183, 212, 14)}
+.nav-item:nth-child(2){background-color: rgb(24, 184, 224)}
+.nav-item:nth-child(3){background-color: rgb(223, 23, 179)}
+.nav-item:nth-child(4){background-color: rgb(24, 37, 223)}
+.nav-item:nth-child(5){background-color: rgb(245, 28, 12)}
